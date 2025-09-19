@@ -1,0 +1,4 @@
+{ "compilerOptions": {
+  "target": "ES2022", "lib": ["dom","es2022"], "module": "esnext", "moduleResolution": "bundler",
+  "strict": true, "baseUrl": ".", "paths": { "@lib/*": ["src/lib/*"] }, "jsx": "preserve"
+}, "include": ["app","src","next-env.d.ts"] }

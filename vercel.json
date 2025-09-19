@@ -1,0 +1,4 @@
+{ "crons": [
+  { "path": "/api/trigger-weekly", "schedule": "0 13 * * 2" },
+  { "path": "/api/trigger-weekly", "schedule": "0 16 * * 5" }
+] }

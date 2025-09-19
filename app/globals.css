@@ -1,0 +1,8 @@
+:root{ --radius:14px; --pad:16px; }
+body{ margin:0; font-family: ui-sans-serif, system-ui, -apple-system; background:#0a0a0a; color:#f2f2f2; }
+.topbar{ height:56px; display:flex; align-items:center; padding:0 var(--pad); backdrop-filter:saturate(180%) blur(20px); background:rgba(20,20,20,.6); border-bottom:1px solid rgba(255,255,255,.08); position:sticky; top:0; }
+.app{ max-width:1000px; margin:0 auto; padding: 16px; }
+.card{ background:linear-gradient(180deg, rgba(255,255,255,.06), rgba(255,255,255,.03)); border:1px solid rgba(255,255,255,.07); border-radius:var(--radius); padding:var(--pad); margin:var(--pad) 0; box-shadow:0 10px 30px rgba(0,0,0,.35); }
+input, button{ border-radius:12px; border:1px solid rgba(255,255,255,.12); padding:10px 14px; background:#151515; color:#fff; }
+button{ cursor:pointer; }
+.grid{ display:grid; grid-template-columns:1fr 1fr; gap:16px; }
