@@ -1,1 +1,37 @@
-node_modules
+# Node / Next.js
+node_modules/
+.next/
+out/
+dist/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json.*
+
+# Env & secrets
+.env
+.env.*        # any env files (except .env.example)
+*.local
+
+# Vercel
+.vercel
+
+# Typescript
+*.tsbuildinfo
+
+# Python (if you use training scripts locally)
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+*.egg
+
+# Jupyter notebooks / caches
+.ipynb_checkpoints/
+
+# macOS / system junk
+.DS_Store
+Thumbs.db
