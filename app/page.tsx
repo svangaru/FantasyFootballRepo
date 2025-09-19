@@ -53,9 +53,6 @@ export default function Home() {
         <h3>Projections (sample)</h3>
         <pre>{JSON.stringify(projections.slice(0, 10), null, 2)}</pre>
       </div>
-
-      {/* tailwind sanity test */}
-      <div className="text-cyan-300 text-sm">tailwind is alive ✨</div>
     </div>
   )
 }
