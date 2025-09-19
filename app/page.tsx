@@ -11,3 +11,4 @@ export default function Home(){
     <div className="card"><h3>Projections (sample)</h3><pre>{JSON.stringify(projections.slice(0,10), null, 2)}</pre></div>
   </div>)
 }
+<div className="text-cyan-300 text-sm">tailwind is alive ✨</div>
